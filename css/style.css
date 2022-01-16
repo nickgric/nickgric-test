@@ -1,0 +1,254 @@
+/* Стиль страницы */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+
+/* Картинка профиля */
+img {
+    width: 370px;
+}
+
+/* Стиль профессии */
+.profession {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+/* Стили страницы целиком */
+.main-section {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: white;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    justify-content: flex-end
+}
+
+/* Время работы */
+.work-time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 10px 0;
+}
+
+/* Разделитель времени работы */
+.separator {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: black;
+}
+
+/* Списки задач в работе */
+.work-list {
+    padding: 0 0 0 18px;
+}
+
+/* Буллеты в проектах */
+.work-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+/* Позиция */
+.position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+
+.education-list {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+
+.education-position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 10px 0;
+}
+
+/* Правая колонка страницы */
+.right-section {
+    margin: 100px 215px 100px 100px;
+}
+
+/* Левая колонка страницы */
+.left-section {
+    background-color: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+}
+
+/* Секция должности */
+.about-profession {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 20px 0;
+}
+
+/* Имя */
+.about-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 25px;
+}
+
+/* Описание */
+.about-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+/* Секция проектов*/
+.projects-section {
+    margin-bottom: 50px;
+}
+
+/* Оранжевое выделение заголовков */
+.orange-title {
+    color: #FB6D3A;
+}
+
+/* Список проектов */
+.projects-list {
+    padding: 0 0 0 25px;
+}
+
+/* Перечень проектов */
+.projects-item {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+/* Текст в проектах */
+.projects-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+}
+
+/* Секция опыта*/
+.experience-section {
+    margin-bottom: 45px;
+}
+
+/* Секция обучения*/
+.education-section {
+    margin-bottom: 20px;
+
+}
+
+/* Секция обо мне*/
+.about-section {
+    margin-bottom: 20px;
+
+}
+
+/* Секция контактов */
+.contacts-section {
+    margin: 50px 0 0 40px;
+}
+
+/* Секция технических навыков */
+.techskills-section {
+    margin: 50px 0 0 40px;
+}
+
+/* Секция мягких навыков */
+.softskills-section {
+    margin: 50px 0 0 40px;
+}
+
+/* Заголовки в левой колонке */
+.sidebar-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Тип контактов */
+.contact-type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin-right: 5px;
+}
+
+/* Контакты */
+.contact {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    opacity: 0.5;
+}
+
+/* Списки в левой колонке */
+.left-list {
+    padding: 0 0 0 18px;
+
+}
+
+/* Буллеты в левой колонке */
+.left-bullet {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+}
+
+/* Пункты в левой колонке */
+.left-listitem {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
